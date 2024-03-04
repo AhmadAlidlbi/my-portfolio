@@ -5,14 +5,13 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Ahmad</p>
           <h1 className="hero--section--title">
-            <span className="hero--section--tile--color">Mobile Application</span>{" "}
-            <b/>
+            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <br />
             Developer
           </h1>
-          <p className="Hero--section--description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br/>
-            Ratione distinctio ipsam dolorum possimus omnis!
+          <p className="hero--section-description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <br /> Dolorum, quas. Amet soluta assumenda cum?
           </p>
         </div>
         <button className="btn btn-primary">Get In Touch</button>
