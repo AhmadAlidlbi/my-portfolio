@@ -17,10 +17,10 @@ p {
   margin: 0;
 }
 :root {
-  --primary: #3A3FD3;
+  --primary: #3a3fd3;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
-  --github: #E67E45;
+  --github: #e67e45;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
@@ -262,7 +262,8 @@ h2 {
   display: flex;
   padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
@@ -273,7 +274,7 @@ h2 {
   border-bottom: 4px solid var(--primary);
 }
 .skills--section--card:hover .skills--section--description {
-  color: var(--darkblue);
+  color: #f5fcff;
 }
 .skills--section--img {
   display: flex;
@@ -291,6 +292,8 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  align-items: center;
+  justify-self: center;
 }
 .skills--section--title {
   color: var(--heading-color);
@@ -299,7 +302,7 @@ h2 {
   line-height: 45px;
 }
 .skills--section--description {
-  color: var(--black);
+  color: #f5fcff;
   font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
